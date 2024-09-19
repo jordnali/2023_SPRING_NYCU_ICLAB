@@ -111,16 +111,6 @@ parameter signed OFFSET = 16'h1000 ;
 integer i;
 genvar idx;
 //  FSM
-/*
-ADD           : S_INST_FETCH --> S_INST_DECODE --> S_EXECUTE --> S_WRITE_BACK --> S_INST_FETCH
-SUB           : S_INST_FETCH --> S_INST_DECODE --> S_EXECUTE --> S_WRITE_BACK --> S_INST_FETCH
-SetLessThan   : S_INST_FETCH --> S_INST_DECODE --> S_EXECUTE --> S_WRITE_BACK --> S_INST_FETCH
-Mult          : S_INST_FETCH --> S_INST_DECODE --> S_EXECUTE --> S_WRITE_BACK --> S_INST_FETCH
-Load          : S_INST_FETCH --> S_INST_DECODE --> S_EXECUTE --> S_DATA_LOAD  --> S_INST_FETCH
-Store         : S_INST_FETCH --> S_INST_DECODE --> S_EXECUTE --> S_DATA_STORE --> S_INST_FETCH
-BranchOnEqual : S_INST_FETCH --> S_INST_DECODE --> S_EXECUTE --> S_INST_FETCH
-Jump          : S_INST_FETCH --> S_INST_DECODE --> S_EXECUTE --> S_INST_FETCH
-*/
 parameter S_IDLE = 3'd7 ;
 parameter S_INST_FETCH  = 3'd0 ; 
 parameter S_INST_DECODE = 3'd1 ;
