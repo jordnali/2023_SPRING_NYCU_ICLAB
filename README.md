@@ -1,4 +1,5 @@
 # 2023_SPRING_NYCU_ICLAB
+<<<<<<< HEAD
 
 | Week | Course Content                                       | Lab Unit                                            
 |------|------------------------------------------------------|-----------------------------------------------------
@@ -20,3 +21,5 @@
 | 16   | Final Exam + Final Project                           | Final Project: Customized ISA Processor            
 
 
+=======
+>>>>>>> parent of 48f1ecf (update readme)
